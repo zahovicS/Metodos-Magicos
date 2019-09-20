@@ -40,16 +40,16 @@
 
 		public function guardar($nombres,$apellidos)
 		{
-			echo $nombres, " , ",$apellidos;
+			echo $nombres," , ",$apellidos;
 		}
 		public function check_duplicados($nombres,$apellidos)
 		{
-			echo "Buscando duplicados de: ",$nombres," y ",$apellidos;
+			echo "No hay duplicados";
 		}
 		public function buscar($dato="")
 		{
-
-		}	echo "Buscando", $dato;
+			echo "sin dato a buscar, te mostrare todo";
+		}	
 
 	}
 ?>
